@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: 'memories-static',
   siteMetadata: {
     title: `Каменная мастерская`,
     description: ``,
