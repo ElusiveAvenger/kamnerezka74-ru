@@ -3,6 +3,7 @@ module.exports = {
     title: `Каменная мастерская`,
     description: ``,
     author: `@elusiveavenger`,
+    siteUrl: `https://kamnerezka74.ru`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +28,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://kamnerezka74.ru',
+        sitemap: 'https://kamnerezka74.ru/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    'gatsby-plugin-sitemap'
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
