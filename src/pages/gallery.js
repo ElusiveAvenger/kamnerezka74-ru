@@ -14,6 +14,9 @@ import $ from "jquery";
 import sun1 from "../images/sun1.jpg";
 
 import balyasina_1 from "../images/works/1/balyasina_1.jpg";
+import boll_1 from "../images/works/1/boll_1.jpg";
+import boll_2 from "../images/works/1/boll_2.jpg";
+import boll__3 from "../images/works/1/boll__3.jpg";
 import vase_1 from "../images/works/1/vase_1.jpg";
 import vase_2 from "../images/works/1/vase_2.jpg";
 import vase_3 from "../images/works/1/vase_3.jpg";
@@ -100,6 +103,9 @@ const GalleryPage = () => (
           <ImageCard img={vase__7} title="" />
           <ImageCard img={vase__8} title="" />
           <ImageCard img={vase__9} title="" />
+          <ImageCard img={boll_1} title="Шар №1" />
+          <ImageCard img={boll_2} title="Шар №2" />
+          <ImageCard img={boll__3} title="" />
         </Gallery>
 
         <div className="col-12">
