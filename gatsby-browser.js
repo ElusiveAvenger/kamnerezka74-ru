@@ -12,7 +12,6 @@ import './src/styles/carousel.css'
 import './node_modules/jquery/dist/jquery.js'
 import './node_modules/popper.js/dist/umd/popper.js'
 import './node_modules/bootstrap/dist/js/bootstrap.js'
-import './node_modules/lightgallery/dist/js/lightgallery.js'
 
 import { init as scrollToUpButtonInit } from './src/components/scrollButton/scrollToUpButton';
 import { init as modalPreviewInit } from './src/components/gallery/GalleryComponent';

@@ -5,9 +5,9 @@ import Card from "../components/card";
 
 import sun1 from "../images/sun1.jpg";
 
-import balyasina_1 from '../images/works/balyasina_1.jpg';
-import vase_1 from '../images/works/vase_1.jpg';
-import vase__9 from '../images/works/vase__9.jpg';
+import balyasina_1 from '../images/works/1/balyasina_1.jpg';
+import vase_1 from '../images/works/1/vase_1.jpg';
+import vase__9 from '../images/works/1/vase__9.jpg';
 // vase__9
 
 const CatalogPage = () => (
