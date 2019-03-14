@@ -6,7 +6,7 @@ function reset(e) {
   e.preventDefault();
 }
 
-const ImageCard = ({ img, title }) => (
+const ImageCard = ({ img, title, top }) => (
   <li className="col-xs-12 col-sm-6 col-md-4 col-lg-3">
     <Link className="align-text-middle"
       to=""
@@ -16,7 +16,7 @@ const ImageCard = ({ img, title }) => (
       data-src={img}
       data-title={title}
     >
-      <img className="img-responsive align-middle" src={img}  />
+      <img className="img-responsive align-middle" src={img} style={{top: top}} />
     </Link>
   </li>
 );

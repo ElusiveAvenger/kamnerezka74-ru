@@ -39,8 +39,9 @@ const GalleryPage = () => (
           </h5>
         </div>
         <Gallery>
-          <ImageCard img={balyasina_1} title="Балясина №1" />
+          <ImageCard img={balyasina_1} title="Балясина №1" top="-40%" />
           <ImageCard img={vase_1} title="Ваза №1" />
+          <ImageCard img={vase__9} title="" />
           <ImageCard img={vase__9} title="" />
         </Gallery>
 
