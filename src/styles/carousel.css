@@ -1,6 +1,6 @@
-.jumbotron{
+.jumbotron {
   height: 60vh;
-  background-image: url('../images/golubi-small.jpg');
+  background-image: url("../images/golubi-small.jpg");
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
@@ -8,7 +8,7 @@
 
 .additional-card {
   width: 12rem;
-  margin: 1rem
+  margin: 1rem;
 }
 
 .additional-card img {
@@ -20,7 +20,7 @@
 }
 
 .display-4 {
-  font-family:  'Palatino Linotype', serif;
+  font-family: "Palatino Linotype", serif;
   font-style: italic;
 }
 
@@ -33,7 +33,6 @@ body {
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
-
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -63,7 +62,6 @@ body {
   /* height: 32rem; */
 }
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -76,10 +74,9 @@ body {
   font-weight: 400;
 }
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
-
 
 /* Featurettes
 ------------------------- */
@@ -92,9 +89,8 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  letter-spacing: -.05rem;
+  letter-spacing: -0.05rem;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -126,6 +122,64 @@ body {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  display:none;
+  display: none;
   z-index: 100;
+}
+
+/* ----------------------------- */
+
+.demo-gallery > ul {
+  margin-bottom: 0;
+}
+
+.demo-gallery > ul > li {
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  height: 150px;
+}
+
+.demo-gallery > ul > li a {
+  border: 3px solid #fff;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  height:100%;
+  overflow: hidden;
+}
+
+.demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  min-height: 100%;
+  max-height: auto;
+  width: 100%;
+}
+
+.demo-gallery > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.modal-content {
+  /* width: auto; */
+  max-width: 100%;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-body img {
+  width: 100%;
+}
+
+body {
+  background-color: #152836;
 }
