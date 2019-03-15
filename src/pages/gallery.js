@@ -13,6 +13,7 @@ import $ from "jquery";
 
 import sun1 from "../images/sun1.jpg";
 
+// 1
 import balyasina_1 from "../images/works/1/balyasina_1.jpg";
 import boll_1 from "../images/works/1/boll_1.jpg";
 import boll_2 from "../images/works/1/boll_2.jpg";
@@ -48,7 +49,66 @@ import vase__6 from "../images/works/1/vase__6.jpg";
 import vase__7 from "../images/works/1/vase__7.jpg";
 import vase__8 from "../images/works/1/vase__8.jpg";
 import vase__9 from "../images/works/1/vase__9.jpg";
-// vase__9
+
+// 2
+import cross_1 from '../images/works/2/cross_1.jpg';
+import cross_2 from '../images/works/2/cross_2.jpg';
+import cross_3 from '../images/works/2/cross_3.jpg';
+import cross_4 from '../images/works/2/cross_4.jpg';
+import cross_5 from '../images/works/2/cross_5.jpg';
+
+//3
+import mb_1_f from '../images/works/3/monument_with_a_bas-relief_1_front.jpg';
+import mb_1_b from '../images/works/3/monument_with_a_bas-relief_1_back.jpg';
+import mb_2 from '../images/works/3/monument_with_a_bas-relief_2.jpg';
+import mb_3 from '../images/works/3/monument_with_a_bas-relief_3.jpg';
+import cd_4 from '../images/works/3/complex_with_decor_4.jpg';
+import cd_5 from '../images/works/3/complex_with_decor_5.jpg';
+
+// 4
+import rock_1 from '../images/works/4/rock_1.jpg';
+import rock_2 from '../images/works/4/rock_2.jpg';
+import rock_3 from '../images/works/4/rock_3.jpg';
+import rock_4_1 from '../images/works/4/rock_4_1.jpg';
+import rock_4_2 from '../images/works/4/rock_4_2.jpg';
+import rock_5_1 from '../images/works/4/rock_5_1.jpg';
+import rock_5_2 from '../images/works/4/rock_5_2.jpg';
+
+// 5
+import dove_1 from '../images/works/5/dove_1.jpg';
+import dove_2 from '../images/works/5/dove_2.jpg';
+import dove_3 from '../images/works/5/dove_3.jpg';
+import complex_1 from '../images/works/5/complex_1.jpg';
+import complex_2 from '../images/works/5/complex_2.jpg';
+import complex_3 from '../images/works/5/complex_3.jpg';
+import complex_with_decor_3 from '../images/works/5/complex_with_decor_3.jpg';
+import complex_with_decor_3_back from '../images/works/5/complex_with_decor_3_back.jpg';
+import complex_with_decor_4 from '../images/works/5/complex_with_decor_4.jpg';
+import monument_with_decor_double from '../images/works/5/monument_with_decor_double.jpg';
+import monument_with_decoration_black_granite from '../images/works/5/monument_with_decoration_black_granite.jpg';
+
+// 6
+import complex_with_decor_1 from '../images/works/6/complex_with_decor_1.jpg';
+import complex_with_decor_2 from '../images/works/6/complex_with_decor_2.jpg';
+import monument_with_bas_relief_1 from '../images/works/6/monument_with_bas-relief_1.jpg';
+import monument_with_bas_relief_and_decor_1 from '../images/works/6/monument_with_bas-relief_and_decor_1.jpg';
+import monument_with_decor_1 from '../images/works/6/monument_with_decor_1.jpg';
+import monument_with_decor_2 from '../images/works/6/monument_with_decor_2.jpg';
+import monument_with_decor_3 from '../images/works/6/monument_with_decor_3.jpg';
+import monument_with_double_decor from '../images/works/6/monument_with_double_decor.jpg';
+
+// 7
+import ball_fence_1 from '../images/works/7/ball_fence_1.jpg';
+
+// 8
+import ex_1 from '../images/works/8/1.jpg';
+import ex_3 from '../images/works/8/3.jpg';
+import ex_4 from '../images/works/8/4.jpg';
+import ex_5 from '../images/works/8/5.jpg';
+import ex_6 from '../images/works/8/6.jpg';
+import ex_7 from '../images/works/8/7.jpg';
+import ex_8 from '../images/works/8/8.jpg';
+import ex_9 from '../images/works/8/9.jpg';
 
 function reset(e) {
   e.preventDefault();
@@ -115,15 +175,11 @@ const GalleryPage = () => (
           <h5 className="text-center">Кресты</h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={cross_1} title="" />
+          <ImageCard img={cross_2} title="" />
+          <ImageCard img={cross_3} title="" />
+          <ImageCard img={cross_4} title="" />
+          <ImageCard img={cross_5} title="" />
         </Gallery>
 
         <div className="col-12">
@@ -133,15 +189,12 @@ const GalleryPage = () => (
           <h5 className="text-center">Барельефные памятники</h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={mb_1_f} title="" />
+          <ImageCard img={mb_1_b} title="" />
+          <ImageCard img={mb_2} title="" />
+          <ImageCard img={mb_3} title="" />
+          <ImageCard img={cd_4} title="" />
+          <ImageCard img={cd_5} title="" />
         </Gallery>
 
         <div className="col-12">
@@ -153,15 +206,13 @@ const GalleryPage = () => (
           </h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={rock_1} title="Скала №1" />
+          <ImageCard img={rock_2} title="Скала №2" />
+          <ImageCard img={rock_3} title="Скала №3" />
+          <ImageCard img={rock_4_1} title="Скала №4" />
+          <ImageCard img={rock_4_2} title="Скала №4 (вдали)" />
+          <ImageCard img={rock_5_1} title="Скала №5" />
+          <ImageCard img={rock_5_2} title="Скала №5 (2 вариант)" />
         </Gallery>
 
         <div className="col-12">
@@ -171,15 +222,17 @@ const GalleryPage = () => (
           <h5 className="text-center">Элитные комплексы из гранита</h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={dove_1} title="" />
+          <ImageCard img={dove_2} title="" />
+          <ImageCard img={dove_3} title="" />
+          <ImageCard img={complex_1} title="" />
+          <ImageCard img={complex_2} title="" />
+          <ImageCard img={complex_3} title="" />
+          <ImageCard img={complex_with_decor_3} title="" />
+          <ImageCard img={complex_with_decor_3_back} title="" />
+          <ImageCard img={complex_with_decor_4} title="" />
+          <ImageCard img={monument_with_decor_double} title="" />
+          <ImageCard img={monument_with_decoration_black_granite} title="" />
         </Gallery>
 
         <div className="col-12">
@@ -189,15 +242,14 @@ const GalleryPage = () => (
           <h5 className="text-center">Памятники</h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={complex_with_decor_1} title="title" />
+          <ImageCard img={complex_with_decor_2} title="title" />
+          <ImageCard img={monument_with_bas_relief_1} title="title" />
+          <ImageCard img={monument_with_bas_relief_and_decor_1} title="title" />
+          <ImageCard img={monument_with_decor_1} title="title" />
+          <ImageCard img={monument_with_decor_2} title="title" />
+          <ImageCard img={monument_with_decor_3} title="title" />
+          <ImageCard img={monument_with_double_decor} title="title" />
         </Gallery>
 
         <div className="col-12">
@@ -207,11 +259,7 @@ const GalleryPage = () => (
           <h5 className="text-center">Оградки</h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={ball_fence_1} title="Оградка с шарами" />
         </Gallery>
 
         <div className="col-12">
@@ -224,8 +272,14 @@ const GalleryPage = () => (
           </h5>
         </div>
         <Gallery>
-          <ImageCard img={sun1} title="title" />
-          <ImageCard img={sun1} title="title" />
+          <ImageCard img={ex_1} title="" />
+          <ImageCard img={ex_3} title="" />
+          <ImageCard img={ex_4} title="" />
+          <ImageCard img={ex_5} title="" />
+          <ImageCard img={ex_6} title="" />
+          <ImageCard img={ex_7} title="" />
+          <ImageCard img={ex_8} title="" />
+          <ImageCard img={ex_9} title="" />
         </Gallery>
       </div>
     </div>

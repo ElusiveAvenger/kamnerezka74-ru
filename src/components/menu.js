@@ -32,14 +32,14 @@ const Menu = () => (
               Наши работы
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownTarget">
-              <Link className="dropdown-item" to="/catalog#turningProducts">Токарные изделия</Link>
-              <Link className="dropdown-item" to="/catalog#crosses">Кресты</Link>
-              <Link className="dropdown-item" to="/catalog#basReliefMonuments">Барельефные памятники</Link>
-              <Link className="dropdown-item" to="/catalog#rocks">Скалы</Link>
-              <Link className="dropdown-item" to="/catalog#granite">Элитные комплексы из гранита</Link>
-              <Link className="dropdown-item" to="/catalog#monuments">Памятники</Link>
-              <Link className="dropdown-item" to="/catalog#fences">Оградки</Link>
-              <Link className="dropdown-item" to="/catalog#decor">Оформление памятников</Link>
+              <Link className="dropdown-item" to="/gallery#turningProducts">Токарные изделия</Link>
+              <Link className="dropdown-item" to="/gallery#crosses">Кресты</Link>
+              <Link className="dropdown-item" to="/gallery#basReliefMonuments">Барельефные памятники</Link>
+              <Link className="dropdown-item" to="/gallery#rocks">Скалы</Link>
+              <Link className="dropdown-item" to="/gallery#granite">Элитные комплексы из гранита</Link>
+              <Link className="dropdown-item" to="/gallery#monuments">Памятники</Link>
+              <Link className="dropdown-item" to="/gallery#fences">Оградки</Link>
+              <Link className="dropdown-item" to="/gallery#decor">Оформление памятников</Link>
             </div>
           </li>
           <li className="nav-item">
