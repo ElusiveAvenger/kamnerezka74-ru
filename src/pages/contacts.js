@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "../components/menu";
 import SEO from "../components/seo";
+import { Link } from "gatsby";
 
 const ContactsPage = () => (
   <>
@@ -35,13 +36,7 @@ const ContactsPage = () => (
                 Email
               </label>
               <div className="col-sm-10">
-                <input
-                  type="text"
-                  readOnly
-                  className="form-control-plaintext"
-                  id="staticEmail"
-                  value="info@kamnerezka74.ru"
-                />
+                <a id="staticEmail" className="form-control-plaintext" href="mailto:info@kamnerezka74.ru">info@kamnerezka74.ru</a>
               </div>
             </div>
           </form>
